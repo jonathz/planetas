@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/main.css">
+    
+    <title>Planetas</title>
 </head>
 <body>
+  <main>  
+    <div class="container-search"><input type="text" name="search" id="search" 
+    placeholder="Ingrese el planeta que desea buscar"> <span class="buscar">Buscar</span>
+    <span class="mostrar-lista"> Mostrar Planetas</span>
+    <span class="numero-especial"> Busqueda del Numero 33</span>
+    </div>
+
+    <table class="container-table">
+        <thead>
+            <tr>
+                <th><div class="container-title"> Planeta <div class="ordenador"><span class="flecha" id="flechaPlaneta">↑</span><span class="flecha" id="flechaPlaneta">↓</span></div></div></th>
+                <th><div class="container-title"> Imagen <div class="ordenador"></div></div></th>
+                <th><div class="container-title"> Superficie del planeta <div class="ordenador"><span class="flecha" id="flechaTamaño">↑</span><span class="flecha" id="flechaTamaño">↓</span></div></div></th>
+                <th><div class="container-title"> Distancia <br> con el sol <div class="ordenador"><span class="flecha" id="flechaSol">↑</span><span class="flecha" id="flechaSol">↓</span></div></div></th>
+                <th><div class="container-title"> Distancia <br> con la tierra <div class="ordenador"><span class="flecha" id="flechaTierra">↑</span><span class="flecha" id="flechaTierra">↓</span></div></div></th>
+                
+            </tr>
+        </thead>
+        <tbody id="content-table">
+            
+
+
+        </tbody>
+    </table>
+
+</main>
+    <footer>
+        <div class="nombre"> Por Jonathan Cepeda <br> para Academia Geek </div>
+        <a href="https://www.facebook.com/jonathanzpda/"> 
+        <img src="images/facebook.svg"  class="social" >
+        </a>
+        <a href="https://www.instagram.com/jonathan_cepeda94/">
+        <img src="images/instagram.svg" class="social" >
+        </a>
+        <a href="https://wa.me/573184625422">
+        <img src="images/whatsapp.svg" class="social" >
+        </a>
+        <a href="https://www.instagram.com/laacademiageek/">
+        <img src="images/academia-Geek.jpg" class="img-footer" >
+        </a>
     
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

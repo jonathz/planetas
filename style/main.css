@@ -1,0 +1,92 @@
+body{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+main{
+    min-height: 80vh;
+}
+.buscar,.mostrar-lista, .numero-especial{
+    background-color: rgba(226, 0, 0, 0.712);
+    padding: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.mostrar-lista:hover{
+    background-color: rgb(226, 0, 0);
+    
+}
+.buscar:hover{
+    background-color: rgb(226, 0, 0);
+    
+}
+.numero-especial:hover{
+    background-color: rgb(226, 0, 0);
+    
+}
+.container-search{
+    margin: 10px;
+}
+#search{
+    width: 250px;
+}
+.ordenador{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 0, 0, 0.712);
+    cursor: pointer;
+    width: 15px;
+    margin: 10px;
+}
+.flecha:hover{
+    background-color: rgb(226, 0, 0);
+}
+.container-title, .container-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-table{
+    border: 1px solid white;
+    width: 100%;
+    
+}
+th,td{
+    border: 1px solid white;
+}
+.planet-img{
+    width: 35%;
+}
+
+.img-footer{
+    
+    width: 8vw;
+    height: 10vh;
+         
+  }
+  footer{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+  }
+  a:hover {
+    
+    box-shadow: inset -1px 3px 8px 5px #1F87FF;}
+  
+  .nombre,.social{
+    
+    width: 8vw;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
